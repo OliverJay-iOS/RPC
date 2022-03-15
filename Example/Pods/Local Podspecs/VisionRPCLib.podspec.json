@@ -3,20 +3,25 @@
   "version": "0.1.0",
   "summary": "A short description of VisionRPCLib.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/IOS-OliverJay-at-289631370416/VisionRPCLib",
+  "homepage": "https://github.com/OliverJay-iOS/RPC.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "IOS-OliverJay-at-289631370416": "OliverJay"
+    "OliverJay": "OliverJay"
   },
   "source": {
-    "git": "https://github.com/IOS-OliverJay-at-289631370416/VisionRPCLib.git",
+    "git": "https://github.com/OliverJay-iOS/RPC.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "VisionRPCLib/Classes/**/*"
+  "source_files": "VisionRPCLib/Classes/**/*",
+  "dependencies": {
+    "gRPC-ProtoRPC": [
+      "1.35.0"
+    ]
+  }
 }
