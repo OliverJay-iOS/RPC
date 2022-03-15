@@ -1,0 +1,6 @@
+framework module Pods_VisionRPCLib_Example {
+  umbrella header "Pods-VisionRPCLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

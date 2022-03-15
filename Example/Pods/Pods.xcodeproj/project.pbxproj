@@ -1,0 +1,1346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037DBDF9549A6E39E257FC4257FB27C7 /* Proposal.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA08A8FB9AB51989CCA4CEA21FCDED3 /* Proposal.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		042454F6192C51FCE17D7DC2236E9F3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		043A89E0B02E794EC597F161C5109461 /* Distribution.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = C97AA00F30CDAE36A53322BD7E83F437 /* Distribution.pbobjc.m */; };
+		08866F89F19CDDE9D357B14E9A3F4016 /* Money.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 88281F05FBD056BD7E648CC999CD644B /* Money.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08ED19443ACA4EBFA24692DEF4E06E99 /* Usage.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1493AB2844D3684D2403268C64131D2D /* Usage.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A6DE4478AA499A42474E9CB333D0C26 /* VisionInventoryItems.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2796976FDA5AE4547BDAD16A90B18AF0 /* VisionInventoryItems.pbobjc.m */; };
+		0AE07214B3C8E005B873120EDA0CA225 /* WitnessContract.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 05948278637E5FB54D1C94FE50F5B210 /* WitnessContract.pbobjc.m */; };
+		0CD1FB57CB3EDDC634E8002DBE8A432E /* AssetIssueContract.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = EBEF90FFF2DE5448C1D5B87A1B39373E /* AssetIssueContract.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11443BC17BB34F406E630E6F6A79D52A /* Monitoring.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D4DB1EFF421D9933F2E4B0B15AABC8 /* Monitoring.pbobjc.m */; };
+		1379C9D24B09957E105435A028D01B5D /* Transaction.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 790B8D9BED772979C03E2635007AAF68 /* Transaction.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14748EBE6072A979C344124AF1955D1F /* MonitoredResource.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = B84DF67A65C3D63983E904F65D4980FF /* MonitoredResource.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18A19B1A75EEB715570DBF9A298EC545 /* Witness.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CD176D65C09BF9804EBD2AFFA7EC3C0D /* Witness.pbobjc.m */; };
+		1F3CBAD8DA00452E791A39548D38C74D /* MarketContract.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB96A25B38D583984170C06B69E4E6 /* MarketContract.pbobjc.m */; };
+		1F911A644FA280C89137AA823FFDE83F /* VisionRPCLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B161E9D0E53C1F96DD4F69B18A9760 /* VisionRPCLib-dummy.m */; };
+		1FC96A7579FC4F364B296E5109193EAA /* Auth.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E50D6B5594D6BDFBC2FB58E31B4B68 /* Auth.pbobjc.m */; };
+		1FEB32A402065AD759A5FEC2AFB075A1 /* LogSeverity.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A0EE27C01F61952202D6F33F923F0 /* LogSeverity.pbobjc.m */; };
+		20BFF7BDF56C51CECAAEA9376D2103B0 /* Service.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = D3CB990FDDEDDE9E7EF6F3049DB44B88 /* Service.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		258341C2FCDCECB78D7AD145088A277E /* ProposalContract.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A74118DAC104E3C028FBDEB0C59126 /* ProposalContract.pbobjc.m */; };
+		2633B4FB691A63E1DE913AE573102020 /* Status.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = C9407F1B48C710AF56D3C8FD85B5DFA6 /* Status.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279E5532A6ECF5132BCDBF218720F76C /* P2P.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF034354AD136C85A4099CB1B1DD508 /* P2P.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BDBA291A898556CEC2950AD6D6A314F /* Backend.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 78AAD2482A685541103CC1F9E343EB73 /* Backend.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DF55CBB32F03E151CF5F4054EEA59E4 /* Vote.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A18C08F2F3E4C0840C09344B0A4CE20 /* Vote.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FFF75AE269DCC97C1E48860F035F693 /* Control.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 6311FEA4482237BDDC1E09EF0975C631 /* Control.pbobjc.m */; };
+		322C8D64B93D7CC5E24634649A376DFA /* BalanceContract.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = E79F19FCB00D2619EA0AD28807651B23 /* BalanceContract.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		346BE343517A693E1010B555B04B483E /* ProposalContract.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 149D92737361C31B88AB2C093CDA99B9 /* ProposalContract.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		352605571ED394C84E9BAC328D525E8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		35B5710F91907279BAA86998D63B5AF6 /* Vision.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 014160E427AF6D79A12FD6C315B66A59 /* Vision.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A51F89837CB41872A2DFC5918AC018D /* SmartContract.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 099D7EA36A50B0543B6D8B188331497E /* SmartContract.pbobjc.m */; };
+		3B98A8EC48EB7AFC3AA99CFF18A7A7DC /* StorageContract.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 698BC9FA6428E113392A2B6281D9CE32 /* StorageContract.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C1C247A8514D809541D080DF6AB582C /* MarketContract.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB3001A3530E37806E30B70E32380AC /* MarketContract.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CF48E4F2C7125C055416B4E05AF52D3 /* Consumer.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 024F6C71EDFFED2C3D7C101BB0C9CD51 /* Consumer.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		423C26201A24E1524DB172CAB00638A0 /* Service.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF484A2954AE1AFC2B93384C25F06F8 /* Service.pbobjc.m */; };
+		428E2AA07CC4E05CD675428313D47075 /* Zksnark.pbrpc.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A3B8A390311C3CC3E0561D7A0B0A24 /* Zksnark.pbrpc.m */; };
+		42D531C19B918265D8F56DB66728DFFB /* Latlng.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = B79F80526628B2E2F9CBFCD57422DAC2 /* Latlng.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F5E848044F8D7D1EE862441607611D /* LogSeverity.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0768A36DA460F63AA7AF4D6FFB1784A5 /* LogSeverity.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EC90ED7A4FAAC3F3501BA6A9B9E732 /* HTTPRequest.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F9577082D7B6DD7DC32A6B06C6426F0 /* HTTPRequest.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47F6A9241F7E0A31F3B3FDD0C0240EB8 /* Descriptor.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D107A296A960627E44DD0AB81DC09D87 /* Descriptor.pbobjc.m */; };
+		48A2629A9FF481D0A8BAA40FB21BADD0 /* AccountContract.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 5600C896F67854A8192B1734F8921C7E /* AccountContract.pbobjc.m */; };
+		4966B172DF29AEDF660771AA214DC2EA /* VisionRPCLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 519DF18B02736FD3A688E5E157B40FF5 /* VisionRPCLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A33A7896816DD84393BFFBF07F19EA3 /* Operations.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9130B68866465D1604982D82482266 /* Operations.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A68A058789FC519369AAC63F7E3B3B4 /* Discover.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7AC18458AA0735DB889593D8DC3E9 /* Discover.pbobjc.m */; };
+		4ACC835F286DB359FEC1AA492A632D7E /* Label.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9A098AF38943A47CFA4D0589D34F48 /* Label.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B38AD900450500C546EB752B831E403 /* Dayofweek.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 8670B8988C44E2E4B616B9C9CDEDAF94 /* Dayofweek.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		505EE4B9E5BD2615DD4E604D6C1D64F8 /* Timeofday.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A269A20CF13660FBE555F2C90436781 /* Timeofday.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50F2174654CABE3AB0B8679B1C90C23D /* Label.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A917FCDCDFEAD0DA419DE0074387B35 /* Label.pbobjc.m */; };
+		52190383E34F26A970BC3B343AEE8244 /* Transaction.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 881EB5493BC36D21BE1A1D5E7846C40B /* Transaction.pbobjc.m */; };
+		548031557762B3871256B665CE8D25BB /* Api.pbrpc.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C4E80C230C2BB8AB87BF205B208DD /* Api.pbrpc.m */; };
+		54CEA0ED8FE10DCCE5338F5AC3F3F144 /* Zksnark.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C5CB7B2507413B451E133DF9CC5E264 /* Zksnark.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		568F8B384AEB59E3C747415B7AD40B04 /* Annotations.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E3651A5D01419C47DC500C3FA2DCCB /* Annotations.pbobjc.m */; };
+		5904B9F5C6C8A89E041A0046D6467FD6 /* Money.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 918F2A56F4E7624F4B14456C3AAAE36A /* Money.pbobjc.m */; };
+		59CD56FB5D04D0F8DF8B76AC1E660B4D /* Control.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 30DB0D9FD95E29D7AEE0389D1B3C8C3D /* Control.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CCF8A4E98CC9D334AC712121CED9ED0 /* Zksnark.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDC3D43FD0BE3201394867DDA30248F /* Zksnark.pbobjc.m */; };
+		5F454EC689997A43ADAFAFFDC080F22F /* Metric.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B39679394190F94FEFB9CA38F083DBE /* Metric.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62627D39598E224ACC63490EFCFE1391 /* SystemParameter.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFED39DD930FD3FAD818C75E485851A /* SystemParameter.pbobjc.m */; };
+		632FECEDCD2EA4AD251E0F6CA662233B /* Api.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D60881C20F452D230071061E99152540 /* Api.pbobjc.m */; };
+		66D18130A8332D4FE71A906B8EC0B5A8 /* Logging.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C4213DDFC7EBC7F39B5958C190A4F6 /* Logging.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6897B7B0896CE38F58174ADC418C4C26 /* Proposal.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDE253093A3D346C45E383CBC946364 /* Proposal.pbobjc.m */; };
+		69151AAE56DDF4B4A1BD0E1FF63A3C89 /* Account.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = FD3180CFAD3D51E8090925A8B1108F12 /* Account.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7045C0058F0223180E48A6DC5588A39A /* Date.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 299FCF3162AE611DED3380521026A076 /* Date.pbobjc.m */; };
+		706F2097E791F0E81D27A14385841B5F /* Vote.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B65F43F8B54C74A657AD3B416533EE9 /* Vote.pbobjc.m */; };
+		726451841F994185FC881C3DFD282858 /* Vision.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 244599127E397C5400BDC4CDA02A292D /* Vision.pbobjc.m */; };
+		72DAC0E908F4E8BB12A35EC641DEED38 /* Status.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7257436B28D2ABB30325604375E0BF5C /* Status.pbobjc.m */; };
+		72FB02E5556BA9E8A3CA465CF1661EB7 /* Pods-VisionRPCLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AB922C9B662EC0D028FD8AF0764231 /* Pods-VisionRPCLib_Tests-dummy.m */; };
+		731548F37A45066E1913C579BA8574E8 /* ErrorDetails.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CAC294493B115FFAD4CEA698AF753AD /* ErrorDetails.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73DE92A43E23D169D428CD1EC0AC3DF3 /* VoteAssetContract.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD44FE05D06AFAC89145D12585EB1C8 /* VoteAssetContract.pbobjc.m */; };
+		74092352E085B9E324693A1346E8C1DD /* Distribution.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 3409C2FC263D8D9C896F4A913A199506 /* Distribution.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7423C4E48CF60CEC69CC60B5CA771D59 /* Dayofweek.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 232480CC80BC449554FAAEA2F4ADAFCF /* Dayofweek.pbobjc.m */; };
+		74800A090D63FE4B693E646FC5D0B1E6 /* ErrorDetails.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F409AF5457CB0010CF064A83523C15 /* ErrorDetails.pbobjc.m */; };
+		75A0BF3946518FBEC6C8A7DDE82D2703 /* Backend.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEC31B70DDAFB620592F7DAFE5EB0C2 /* Backend.pbobjc.m */; };
+		772646FA73D11B927A1A99166CDF93DA /* Context.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 762CF050B5F062BB0737A6B23C7EF62F /* Context.pbobjc.m */; };
+		79A19ECB6018B091A392D4B3B9577614 /* Common.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C08CE08407E0B8DE149FB56A5C386C1 /* Common.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D17311F4DC390CDB57C592E9E27D123 /* Witness.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B7D00A3FAB155FB68A9EC6AD11B21CF /* Witness.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DEA8A8151C891305C71ED6FC3389341 /* Api.pbrpc.h in Headers */ = {isa = PBXBuildFile; fileRef = CA32247D1B96E2AB24F4AC961FF09F25 /* Api.pbrpc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E50BC89E3C3B119483EE32A2CBAD480 /* ExchangeContract.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C672CB6448C056942F55433AD6BEF8 /* ExchangeContract.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83031695C7D12804033E6BACF49CB8F7 /* Documentation.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 758F8600AB1F48581E63CCF7327C212C /* Documentation.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83EEBD6AB486C37DC4F7A8B9C17AD879 /* Documentation.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 73862B2B8F605B15F243DFCAF8E49097 /* Documentation.pbobjc.m */; };
+		843000241D82BF8B4AB07DD14102FCEE /* Log.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EA1B78FA801604FEBCB86655907DE4 /* Log.pbobjc.m */; };
+		86343BE5E4480B1B4A1F672E0C6E969A /* Descriptor.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = A5256412930B28240254C1B745AECF3C /* Descriptor.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88BEDEE7D600AC8EA0A8082BEADD40F9 /* Timeofday.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = E477EC22E016310C7064E6FD78BB8B64 /* Timeofday.pbobjc.m */; };
+		8C946B5DA739458FDACBE17C72A066F2 /* BalanceContract.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 952602C865460D9C02B363E288511A6E /* BalanceContract.pbobjc.m */; };
+		8D9F507D42411F0AC9E793756611F880 /* Account.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B76D1142718BE94FC679543137286B /* Account.pbobjc.m */; };
+		8E6DAF28F99C516FC03AB06F98174E5F /* WitnessContract.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 410746B769673A36439EE1585C7DE1D6 /* WitnessContract.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E729C9A705F35D42F2C832D2F61E992 /* Metric.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 60732093E8BD81C9C0A0CC6902B35975 /* Metric.pbobjc.m */; };
+		90635DF7A038D99B97C3DD1875B80294 /* Billing.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = E4105CDD7E375A34C0526129910ED971 /* Billing.pbobjc.m */; };
+		9342AFA1C8342B1DAFF0C8E9A4C78169 /* Code.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2B38B9C8716D1945EA608AEAF839D /* Code.pbobjc.m */; };
+		935EF9B31505215350B4341A3442A3A6 /* Logging.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 99319D69041CFD72226E425077F2380A /* Logging.pbobjc.m */; };
+		93B8355D320B04C3F440531964FB0A31 /* P2P.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8AEA948B2AB25EFD141A67432B94B1 /* P2P.pbobjc.m */; };
+		975839B3A2B23E3C482CEB08BEA50657 /* SystemParameter.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = ED6D9AD8EA8646144CC07E0881E11693 /* SystemParameter.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9803BD272AC3A5A54A5B59FD4D99AD65 /* StorageContract.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = C6805EBCDC2D08CE56ABD5A3408C4869 /* StorageContract.pbobjc.m */; };
+		9A90B003DFE1CC87BF11E2DE84C2FF74 /* Block.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = E5171952990D4B34D9BDEC71082076E8 /* Block.pbobjc.m */; };
+		9B1AA3D00CE4720A61CC078072076242 /* Discover.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2099A5A352317DA78F6A8A8D18340F /* Discover.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E4FAAB262DCB8F8B2DBEC264DBBC5CC /* Pods-VisionRPCLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5570A04E53604B4BFCA54C7B28709026 /* Pods-VisionRPCLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E507FDAEF6122BED005D71AA3AE16BA /* Context.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 69219B73277BEC834576CED2CB0D5EAC /* Context.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A96D50F4FF43182D652A426CD2478A73 /* Zksnark.pbrpc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3948A9EE334215AE03F57FA0A5378E /* Zksnark.pbrpc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A97CB2E39E9D71E2BBE283E92ADCCAB6 /* Billing.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 28816DA2FFCB87BA0A6EECC8C9F5AB99 /* Billing.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A98702CA598B59921A633E25F5DA2BB0 /* VoteAssetContract.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B6C8AE9A9F8140352C49E740E38D16D /* VoteAssetContract.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A991063371A63294194BB683D35698DD /* AssetIssueContract.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BC7B2128A2351CD8CF3EDF114139E5 /* AssetIssueContract.pbobjc.m */; };
+		ADD2348F107EFADDD09E1B2DC4DAF393 /* Auth.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = EC66A1EA4BD3465BF000A0EFAB76B081 /* Auth.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE851AAECFDC8B159541409D8C80958C /* Pods-VisionRPCLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2574E0C3DFD95437049A53C3DBC8C79 /* Pods-VisionRPCLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEDF128CD4828B5F2F67EF2CA6541144 /* Consumer.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B87F761E62D5DC8DC46670EED702736B /* Consumer.pbobjc.m */; };
+		B4498150E14C32D26A99689EC507BE98 /* Common.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 635E4FBFB4ACAF3AD0E48FA94A68AFF6 /* Common.pbobjc.m */; };
+		B470877FEC6DBFF8204605C6987B3054 /* ShieldContract.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = EE6921E456285945870AE228E18B383A /* ShieldContract.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6BE0B15EC6380851E8C36C0C989DBB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B761A3C8335EE4931E08A27B368B7FE7 /* DelegatedResource.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = C293095BD125EAFD5162C340DA962CA9 /* DelegatedResource.pbobjc.m */; };
+		B878E0BE8FD9077C110BC032027D7B9A /* Code.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C3FAD8979FBEFA363336BD57F4723F5 /* Code.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B95E187830488605016EE4C73A5E25B8 /* Pods-VisionRPCLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A8C6BBBFEE6E1F05F0A742E456419 /* Pods-VisionRPCLib_Example-dummy.m */; };
+		BA8A7FC0B182649A1F208DE65E5BE8F4 /* Color.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = F02A4DA6C233EE7FD6F29B66C24885D4 /* Color.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE7E0D40405755C3C4E3C3E34CFA8753 /* Annotations.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F344E74037BE47B6C349DB73C45EAE /* Annotations.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4C04E5B0FCBF233A2F1229A24333B77 /* Block.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = D30338FEC7648667F618C293006FB8EE /* Block.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C86AA074C0FCD5D0D7A22E6A1AD85955 /* Log.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = F321148D4BE985F2245FFE18CFECBE32 /* Log.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB6942BACABBC9C3C6384BBAE4756B63 /* Api.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = B775C5BF7997B141F41CAD786E361FDF /* Api.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCEFD4C6647721380CE608B35B72FB70 /* DelegatedResource.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA99EFA04D48AE42905CB8FE1732E95 /* DelegatedResource.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD63CB81F0FED2F5839712D1E055712D /* HTTP.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 78195B63FB5048958019478484A33B7C /* HTTP.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D4EA6C6498B6C5328A3FDBAA4197CB /* ExchangeContract.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 051580834BB1838B105420145256113D /* ExchangeContract.pbobjc.m */; };
+		D9E04D308B092D759D1ED35F5EB3E501 /* VisionInventoryItems.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = ED5516408F7DA8245CEA7AE85C8D78F3 /* VisionInventoryItems.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E01DF1F539707766632ED1A458BF1F16 /* Operations.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B994F266DE66AF3D7C61FDA24837D0E /* Operations.pbobjc.m */; };
+		E1009EC782E431763E185FDEBC2C9FBA /* Latlng.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7BD11D819C6AF6B369FB32AACE299F /* Latlng.pbobjc.m */; };
+		E347CBE644F5423451DCC92A4EFD4288 /* Color.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = F279AFC4BE412D28165FF4B2E1749074 /* Color.pbobjc.m */; };
+		E526EAB08092AAA5DE8F1CA7A6C37E95 /* Monitoring.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 856EB4C5967124D71F2DBBB151E3052A /* Monitoring.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBC6AA7ACA1B64B9CA4CB81EEF8AD77F /* MonitoredResource.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3AEC63F67BE81CC9A65244306D9F1F /* MonitoredResource.pbobjc.m */; };
+		EE34AC063B031D9E71F891542BB82A71 /* ShieldContract.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = BC26892890B3B02716041CB1F42720F7 /* ShieldContract.pbobjc.m */; };
+		F78124B151A3DA30F9295E56FC735C38 /* Usage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 246EE36337CF735F147553D7B2167FC7 /* Usage.pbobjc.m */; };
+		F82B93E090BACF4694A0BAB93BB373E2 /* AccountContract.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 338A4AD56B6E07503399C7688BD24A3D /* AccountContract.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC2172D1493E63398AAA8D9AF22D37A5 /* HTTP.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA3EE25B1015F9306CEA403B4CBEEFF /* HTTP.pbobjc.m */; };
+		FC9D8FF5051C4FE2647F6EF7E67B04EA /* Date.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1EBA30061E8B1125181AB436E83B6D /* Date.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFA919BD54FC17799376A0F74C7FAE56 /* HTTPRequest.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D9BE261F639398A766B63D6309EC95 /* HTTPRequest.pbobjc.m */; };
+		FFF6877CB2657267B82D2FA9C4378CBB /* SmartContract.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C946971FFD2233031B2849DFDE01EC /* SmartContract.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33259379F607C0C183CCD9A585E74BDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E28C33D6D04BCCD33B4BA6D84CAF7B6E;
+			remoteInfo = VisionRPCLib;
+		};
+		AED961AD6D794AF744701E25FD6B6EE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E9B0C633D314C5AF4438B34A3FEBB97;
+			remoteInfo = "Pods-VisionRPCLib_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014160E427AF6D79A12FD6C315B66A59 /* Vision.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Vision.pbobjc.h; sourceTree = "<group>"; };
+		024F6C71EDFFED2C3D7C101BB0C9CD51 /* Consumer.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Consumer.pbobjc.h; sourceTree = "<group>"; };
+		035A8C6BBBFEE6E1F05F0A742E456419 /* Pods-VisionRPCLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VisionRPCLib_Example-dummy.m"; sourceTree = "<group>"; };
+		04EB96A25B38D583984170C06B69E4E6 /* MarketContract.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MarketContract.pbobjc.m; sourceTree = "<group>"; };
+		051580834BB1838B105420145256113D /* ExchangeContract.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ExchangeContract.pbobjc.m; sourceTree = "<group>"; };
+		05948278637E5FB54D1C94FE50F5B210 /* WitnessContract.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WitnessContract.pbobjc.m; sourceTree = "<group>"; };
+		0768A36DA460F63AA7AF4D6FFB1784A5 /* LogSeverity.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LogSeverity.pbobjc.h; sourceTree = "<group>"; };
+		097DE861941598E782CE780C1CE78F11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		099D7EA36A50B0543B6D8B188331497E /* SmartContract.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SmartContract.pbobjc.m; sourceTree = "<group>"; };
+		0A269A20CF13660FBE555F2C90436781 /* Timeofday.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Timeofday.pbobjc.h; sourceTree = "<group>"; };
+		0CAC294493B115FFAD4CEA698AF753AD /* ErrorDetails.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ErrorDetails.pbobjc.h; sourceTree = "<group>"; };
+		0E3AEC63F67BE81CC9A65244306D9F1F /* MonitoredResource.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MonitoredResource.pbobjc.m; sourceTree = "<group>"; };
+		12A74118DAC104E3C028FBDEB0C59126 /* ProposalContract.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ProposalContract.pbobjc.m; sourceTree = "<group>"; };
+		1493AB2844D3684D2403268C64131D2D /* Usage.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Usage.pbobjc.h; sourceTree = "<group>"; };
+		149D92737361C31B88AB2C093CDA99B9 /* ProposalContract.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ProposalContract.pbobjc.h; sourceTree = "<group>"; };
+		19B02598EB29D5DBB5461EB144195257 /* VisionRPCLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VisionRPCLib-prefix.pch"; sourceTree = "<group>"; };
+		1D3948A9EE334215AE03F57FA0A5378E /* Zksnark.pbrpc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Zksnark.pbrpc.h; sourceTree = "<group>"; };
+		1F0DEFD524ACAA13B8E2CE760FDF4E24 /* Pods-VisionRPCLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VisionRPCLib_Tests"; path = Pods_VisionRPCLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9577082D7B6DD7DC32A6B06C6426F0 /* HTTPRequest.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPRequest.pbobjc.h; sourceTree = "<group>"; };
+		232480CC80BC449554FAAEA2F4ADAFCF /* Dayofweek.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Dayofweek.pbobjc.m; sourceTree = "<group>"; };
+		244599127E397C5400BDC4CDA02A292D /* Vision.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Vision.pbobjc.m; sourceTree = "<group>"; };
+		246EE36337CF735F147553D7B2167FC7 /* Usage.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Usage.pbobjc.m; sourceTree = "<group>"; };
+		2796976FDA5AE4547BDAD16A90B18AF0 /* VisionInventoryItems.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VisionInventoryItems.pbobjc.m; sourceTree = "<group>"; };
+		27C4213DDFC7EBC7F39B5958C190A4F6 /* Logging.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Logging.pbobjc.h; sourceTree = "<group>"; };
+		28816DA2FFCB87BA0A6EECC8C9F5AB99 /* Billing.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Billing.pbobjc.h; sourceTree = "<group>"; };
+		299FCF3162AE611DED3380521026A076 /* Date.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Date.pbobjc.m; sourceTree = "<group>"; };
+		2B39679394190F94FEFB9CA38F083DBE /* Metric.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Metric.pbobjc.h; sourceTree = "<group>"; };
+		2C08CE08407E0B8DE149FB56A5C386C1 /* Common.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Common.pbobjc.h; sourceTree = "<group>"; };
+		2C67AC6B313C1825739E62A0089B43BD /* Pods-VisionRPCLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VisionRPCLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		2CD44FE05D06AFAC89145D12585EB1C8 /* VoteAssetContract.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VoteAssetContract.pbobjc.m; sourceTree = "<group>"; };
+		2DA99EFA04D48AE42905CB8FE1732E95 /* DelegatedResource.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DelegatedResource.pbobjc.h; sourceTree = "<group>"; };
+		30DB0D9FD95E29D7AEE0389D1B3C8C3D /* Control.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Control.pbobjc.h; sourceTree = "<group>"; };
+		338A4AD56B6E07503399C7688BD24A3D /* AccountContract.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AccountContract.pbobjc.h; sourceTree = "<group>"; };
+		3409C2FC263D8D9C896F4A913A199506 /* Distribution.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Distribution.pbobjc.h; sourceTree = "<group>"; };
+		3AB3001A3530E37806E30B70E32380AC /* MarketContract.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MarketContract.pbobjc.h; sourceTree = "<group>"; };
+		404056A71A17A92B7AFE21FF948A184D /* Pods-VisionRPCLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VisionRPCLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		40E50D6B5594D6BDFBC2FB58E31B4B68 /* Auth.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Auth.pbobjc.m; sourceTree = "<group>"; };
+		410746B769673A36439EE1585C7DE1D6 /* WitnessContract.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WitnessContract.pbobjc.h; sourceTree = "<group>"; };
+		43F409AF5457CB0010CF064A83523C15 /* ErrorDetails.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ErrorDetails.pbobjc.m; sourceTree = "<group>"; };
+		4AB7AC18458AA0735DB889593D8DC3E9 /* Discover.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Discover.pbobjc.m; sourceTree = "<group>"; };
+		4B2099A5A352317DA78F6A8A8D18340F /* Discover.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Discover.pbobjc.h; sourceTree = "<group>"; };
+		4C5CB7B2507413B451E133DF9CC5E264 /* Zksnark.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Zksnark.pbobjc.h; sourceTree = "<group>"; };
+		4DA3EE25B1015F9306CEA403B4CBEEFF /* HTTP.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTP.pbobjc.m; sourceTree = "<group>"; };
+		4FF034354AD136C85A4099CB1B1DD508 /* P2P.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = P2P.pbobjc.h; sourceTree = "<group>"; };
+		5149E874AD55B2B7E5E9979E48D5A838 /* Pods-VisionRPCLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisionRPCLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		519DF18B02736FD3A688E5E157B40FF5 /* VisionRPCLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VisionRPCLib-umbrella.h"; sourceTree = "<group>"; };
+		51D4DB1EFF421D9933F2E4B0B15AABC8 /* Monitoring.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Monitoring.pbobjc.m; sourceTree = "<group>"; };
+		5293FDBDCA60952BC660C8C52F5A6E37 /* Pods-VisionRPCLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VisionRPCLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5570A04E53604B4BFCA54C7B28709026 /* Pods-VisionRPCLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VisionRPCLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		5600C896F67854A8192B1734F8921C7E /* AccountContract.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AccountContract.pbobjc.m; sourceTree = "<group>"; };
+		5786EDCDD9CD03F5261FB4BC0B22DCD5 /* VisionRPCLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VisionRPCLib.release.xcconfig; sourceTree = "<group>"; };
+		59E3651A5D01419C47DC500C3FA2DCCB /* Annotations.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Annotations.pbobjc.m; sourceTree = "<group>"; };
+		5B6C8AE9A9F8140352C49E740E38D16D /* VoteAssetContract.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VoteAssetContract.pbobjc.h; sourceTree = "<group>"; };
+		5B994F266DE66AF3D7C61FDA24837D0E /* Operations.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Operations.pbobjc.m; sourceTree = "<group>"; };
+		5C3FAD8979FBEFA363336BD57F4723F5 /* Code.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Code.pbobjc.h; sourceTree = "<group>"; };
+		5C9A0EE27C01F61952202D6F33F923F0 /* LogSeverity.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LogSeverity.pbobjc.m; sourceTree = "<group>"; };
+		5D9C4E80C230C2BB8AB87BF205B208DD /* Api.pbrpc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Api.pbrpc.m; sourceTree = "<group>"; };
+		60486B86090F700DED6C34C185D53C2F /* VisionRPCLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VisionRPCLib-Info.plist"; sourceTree = "<group>"; };
+		60732093E8BD81C9C0A0CC6902B35975 /* Metric.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Metric.pbobjc.m; sourceTree = "<group>"; };
+		6261E09CF8F86FAB21C6A71F0A11F432 /* VisionRPCLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VisionRPCLib; path = VisionRPCLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6311FEA4482237BDDC1E09EF0975C631 /* Control.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Control.pbobjc.m; sourceTree = "<group>"; };
+		635E4FBFB4ACAF3AD0E48FA94A68AFF6 /* Common.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Common.pbobjc.m; sourceTree = "<group>"; };
+		6596218381BECCBB7B6A75A5819B2665 /* VisionRPCLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VisionRPCLib.debug.xcconfig; sourceTree = "<group>"; };
+		69219B73277BEC834576CED2CB0D5EAC /* Context.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Context.pbobjc.h; sourceTree = "<group>"; };
+		698BC9FA6428E113392A2B6281D9CE32 /* StorageContract.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = StorageContract.pbobjc.h; sourceTree = "<group>"; };
+		6B64B1DE8F13E4DA82774D337D5800FC /* Pods-VisionRPCLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VisionRPCLib_Example-Info.plist"; sourceTree = "<group>"; };
+		6DFED39DD930FD3FAD818C75E485851A /* SystemParameter.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SystemParameter.pbobjc.m; sourceTree = "<group>"; };
+		6EA1D4B5C1663779E7A13076DECA8E0F /* Pods-VisionRPCLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisionRPCLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6FDC3D43FD0BE3201394867DDA30248F /* Zksnark.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Zksnark.pbobjc.m; sourceTree = "<group>"; };
+		71110D72A7495A18C24D8F6E303AEAC2 /* Pods-VisionRPCLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisionRPCLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7257436B28D2ABB30325604375E0BF5C /* Status.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Status.pbobjc.m; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73862B2B8F605B15F243DFCAF8E49097 /* Documentation.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Documentation.pbobjc.m; sourceTree = "<group>"; };
+		758F8600AB1F48581E63CCF7327C212C /* Documentation.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Documentation.pbobjc.h; sourceTree = "<group>"; };
+		762CF050B5F062BB0737A6B23C7EF62F /* Context.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Context.pbobjc.m; sourceTree = "<group>"; };
+		78195B63FB5048958019478484A33B7C /* HTTP.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTP.pbobjc.h; sourceTree = "<group>"; };
+		78AAD2482A685541103CC1F9E343EB73 /* Backend.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Backend.pbobjc.h; sourceTree = "<group>"; };
+		790B8D9BED772979C03E2635007AAF68 /* Transaction.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Transaction.pbobjc.h; sourceTree = "<group>"; };
+		7A18C08F2F3E4C0840C09344B0A4CE20 /* Vote.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Vote.pbobjc.h; sourceTree = "<group>"; };
+		7B7D00A3FAB155FB68A9EC6AD11B21CF /* Witness.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Witness.pbobjc.h; sourceTree = "<group>"; };
+		7E545CA10BA8575F14784099D720AF02 /* Pods-VisionRPCLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VisionRPCLib_Example"; path = Pods_VisionRPCLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EEC31B70DDAFB620592F7DAFE5EB0C2 /* Backend.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Backend.pbobjc.m; sourceTree = "<group>"; };
+		8394064D52E2F732B4CD918556E82607 /* VisionRPCLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VisionRPCLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		84187A5CDCFDA367F2717116332F9B60 /* VisionRPCLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VisionRPCLib.modulemap; sourceTree = "<group>"; };
+		856EB4C5967124D71F2DBBB151E3052A /* Monitoring.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Monitoring.pbobjc.h; sourceTree = "<group>"; };
+		8670B8988C44E2E4B616B9C9CDEDAF94 /* Dayofweek.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Dayofweek.pbobjc.h; sourceTree = "<group>"; };
+		881EB5493BC36D21BE1A1D5E7846C40B /* Transaction.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Transaction.pbobjc.m; sourceTree = "<group>"; };
+		88281F05FBD056BD7E648CC999CD644B /* Money.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Money.pbobjc.h; sourceTree = "<group>"; };
+		88F344E74037BE47B6C349DB73C45EAE /* Annotations.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Annotations.pbobjc.h; sourceTree = "<group>"; };
+		89BC7B2128A2351CD8CF3EDF114139E5 /* AssetIssueContract.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AssetIssueContract.pbobjc.m; sourceTree = "<group>"; };
+		8A917FCDCDFEAD0DA419DE0074387B35 /* Label.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Label.pbobjc.m; sourceTree = "<group>"; };
+		8B65F43F8B54C74A657AD3B416533EE9 /* Vote.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Vote.pbobjc.m; sourceTree = "<group>"; };
+		918F2A56F4E7624F4B14456C3AAAE36A /* Money.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Money.pbobjc.m; sourceTree = "<group>"; };
+		92C946971FFD2233031B2849DFDE01EC /* SmartContract.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartContract.pbobjc.h; sourceTree = "<group>"; };
+		94D9BE261F639398A766B63D6309EC95 /* HTTPRequest.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPRequest.pbobjc.m; sourceTree = "<group>"; };
+		952602C865460D9C02B363E288511A6E /* BalanceContract.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BalanceContract.pbobjc.m; sourceTree = "<group>"; };
+		99319D69041CFD72226E425077F2380A /* Logging.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Logging.pbobjc.m; sourceTree = "<group>"; };
+		9B6C43DE2BDAB03A8F274CCAC196C2AD /* Pods-VisionRPCLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VisionRPCLib_Example.modulemap"; sourceTree = "<group>"; };
+		9BE5762AF31C4E220A21F46A80C31D7F /* Pods-VisionRPCLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VisionRPCLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5256412930B28240254C1B745AECF3C /* Descriptor.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Descriptor.pbobjc.h; sourceTree = "<group>"; };
+		B0AB922C9B662EC0D028FD8AF0764231 /* Pods-VisionRPCLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VisionRPCLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		B775C5BF7997B141F41CAD786E361FDF /* Api.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Api.pbobjc.h; sourceTree = "<group>"; };
+		B79F80526628B2E2F9CBFCD57422DAC2 /* Latlng.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Latlng.pbobjc.h; sourceTree = "<group>"; };
+		B7C672CB6448C056942F55433AD6BEF8 /* ExchangeContract.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ExchangeContract.pbobjc.h; sourceTree = "<group>"; };
+		B84DF67A65C3D63983E904F65D4980FF /* MonitoredResource.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MonitoredResource.pbobjc.h; sourceTree = "<group>"; };
+		B87F761E62D5DC8DC46670EED702736B /* Consumer.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Consumer.pbobjc.m; sourceTree = "<group>"; };
+		BC26892890B3B02716041CB1F42720F7 /* ShieldContract.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShieldContract.pbobjc.m; sourceTree = "<group>"; };
+		C293095BD125EAFD5162C340DA962CA9 /* DelegatedResource.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DelegatedResource.pbobjc.m; sourceTree = "<group>"; };
+		C6805EBCDC2D08CE56ABD5A3408C4869 /* StorageContract.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = StorageContract.pbobjc.m; sourceTree = "<group>"; };
+		C7B76D1142718BE94FC679543137286B /* Account.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Account.pbobjc.m; sourceTree = "<group>"; };
+		C9407F1B48C710AF56D3C8FD85B5DFA6 /* Status.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Status.pbobjc.h; sourceTree = "<group>"; };
+		C97AA00F30CDAE36A53322BD7E83F437 /* Distribution.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Distribution.pbobjc.m; sourceTree = "<group>"; };
+		CA32247D1B96E2AB24F4AC961FF09F25 /* Api.pbrpc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Api.pbrpc.h; sourceTree = "<group>"; };
+		CD176D65C09BF9804EBD2AFFA7EC3C0D /* Witness.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Witness.pbobjc.m; sourceTree = "<group>"; };
+		D107A296A960627E44DD0AB81DC09D87 /* Descriptor.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Descriptor.pbobjc.m; sourceTree = "<group>"; };
+		D30338FEC7648667F618C293006FB8EE /* Block.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Block.pbobjc.h; sourceTree = "<group>"; };
+		D3CB990FDDEDDE9E7EF6F3049DB44B88 /* Service.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Service.pbobjc.h; sourceTree = "<group>"; };
+		D60881C20F452D230071061E99152540 /* Api.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Api.pbobjc.m; sourceTree = "<group>"; };
+		D630C1E2B78D43642803EDBD9235515C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DC8AEA948B2AB25EFD141A67432B94B1 /* P2P.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = P2P.pbobjc.m; sourceTree = "<group>"; };
+		DF7BD11D819C6AF6B369FB32AACE299F /* Latlng.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Latlng.pbobjc.m; sourceTree = "<group>"; };
+		E2574E0C3DFD95437049A53C3DBC8C79 /* Pods-VisionRPCLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VisionRPCLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E4105CDD7E375A34C0526129910ED971 /* Billing.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Billing.pbobjc.m; sourceTree = "<group>"; };
+		E477EC22E016310C7064E6FD78BB8B64 /* Timeofday.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Timeofday.pbobjc.m; sourceTree = "<group>"; };
+		E5171952990D4B34D9BDEC71082076E8 /* Block.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Block.pbobjc.m; sourceTree = "<group>"; };
+		E59AC3A95FA5CBF54D620B5E4A6A077C /* Pods-VisionRPCLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VisionRPCLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E79F19FCB00D2619EA0AD28807651B23 /* BalanceContract.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BalanceContract.pbobjc.h; sourceTree = "<group>"; };
+		EBEF90FFF2DE5448C1D5B87A1B39373E /* AssetIssueContract.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AssetIssueContract.pbobjc.h; sourceTree = "<group>"; };
+		EC66A1EA4BD3465BF000A0EFAB76B081 /* Auth.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Auth.pbobjc.h; sourceTree = "<group>"; };
+		EC9A098AF38943A47CFA4D0589D34F48 /* Label.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Label.pbobjc.h; sourceTree = "<group>"; };
+		ED5516408F7DA8245CEA7AE85C8D78F3 /* VisionInventoryItems.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VisionInventoryItems.pbobjc.h; sourceTree = "<group>"; };
+		ED6D9AD8EA8646144CC07E0881E11693 /* SystemParameter.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SystemParameter.pbobjc.h; sourceTree = "<group>"; };
+		EE1EBA30061E8B1125181AB436E83B6D /* Date.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Date.pbobjc.h; sourceTree = "<group>"; };
+		EE6921E456285945870AE228E18B383A /* ShieldContract.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShieldContract.pbobjc.h; sourceTree = "<group>"; };
+		F02A4DA6C233EE7FD6F29B66C24885D4 /* Color.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Color.pbobjc.h; sourceTree = "<group>"; };
+		F0C15B281C0EE3E487B0A83EE7A45EF1 /* Pods-VisionRPCLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VisionRPCLib_Tests.modulemap"; sourceTree = "<group>"; };
+		F1B161E9D0E53C1F96DD4F69B18A9760 /* VisionRPCLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VisionRPCLib-dummy.m"; sourceTree = "<group>"; };
+		F1EA1B78FA801604FEBCB86655907DE4 /* Log.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Log.pbobjc.m; sourceTree = "<group>"; };
+		F279AFC4BE412D28165FF4B2E1749074 /* Color.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Color.pbobjc.m; sourceTree = "<group>"; };
+		F321148D4BE985F2245FFE18CFECBE32 /* Log.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Log.pbobjc.h; sourceTree = "<group>"; };
+		F4C846E927E076A8679B758FB66B4273 /* Pods-VisionRPCLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisionRPCLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F8A3B8A390311C3CC3E0561D7A0B0A24 /* Zksnark.pbrpc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Zksnark.pbrpc.m; sourceTree = "<group>"; };
+		F9B2B38B9C8716D1945EA608AEAF839D /* Code.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Code.pbobjc.m; sourceTree = "<group>"; };
+		FB3BD91E0A8124D43562C8B7625CF2B7 /* Pods-VisionRPCLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisionRPCLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB9130B68866465D1604982D82482266 /* Operations.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Operations.pbobjc.h; sourceTree = "<group>"; };
+		FBF484A2954AE1AFC2B93384C25F06F8 /* Service.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Service.pbobjc.m; sourceTree = "<group>"; };
+		FD3180CFAD3D51E8090925A8B1108F12 /* Account.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Account.pbobjc.h; sourceTree = "<group>"; };
+		FDA08A8FB9AB51989CCA4CEA21FCDED3 /* Proposal.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Proposal.pbobjc.h; sourceTree = "<group>"; };
+		FFDE253093A3D346C45E383CBC946364 /* Proposal.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Proposal.pbobjc.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		651ABE42D8AB7EAD55F8B340444C2565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BE0B15EC6380851E8C36C0C989DBB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBE290CBFD9B654390FD4D2F472F1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042454F6192C51FCE17D7DC2236E9F3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11C79A39DA0BB980DEF778B2F3BE00E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352605571ED394C84E9BAC328D525E8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		177F1A1139750492B9D25F2086744353 /* type */ = {
+			isa = PBXGroup;
+			children = (
+				F02A4DA6C233EE7FD6F29B66C24885D4 /* Color.pbobjc.h */,
+				F279AFC4BE412D28165FF4B2E1749074 /* Color.pbobjc.m */,
+				EE1EBA30061E8B1125181AB436E83B6D /* Date.pbobjc.h */,
+				299FCF3162AE611DED3380521026A076 /* Date.pbobjc.m */,
+				8670B8988C44E2E4B616B9C9CDEDAF94 /* Dayofweek.pbobjc.h */,
+				232480CC80BC449554FAAEA2F4ADAFCF /* Dayofweek.pbobjc.m */,
+				B79F80526628B2E2F9CBFCD57422DAC2 /* Latlng.pbobjc.h */,
+				DF7BD11D819C6AF6B369FB32AACE299F /* Latlng.pbobjc.m */,
+				88281F05FBD056BD7E648CC999CD644B /* Money.pbobjc.h */,
+				918F2A56F4E7624F4B14456C3AAAE36A /* Money.pbobjc.m */,
+				0A269A20CF13660FBE555F2C90436781 /* Timeofday.pbobjc.h */,
+				E477EC22E016310C7064E6FD78BB8B64 /* Timeofday.pbobjc.m */,
+			);
+			name = type;
+			path = type;
+			sourceTree = "<group>";
+		};
+		21E80FFC9BA37D02929467FF0F68A745 /* protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				A5256412930B28240254C1B745AECF3C /* Descriptor.pbobjc.h */,
+				D107A296A960627E44DD0AB81DC09D87 /* Descriptor.pbobjc.m */,
+			);
+			name = protobuf;
+			path = protobuf;
+			sourceTree = "<group>";
+		};
+		3C3575C6A7708F6A93FEBE4FCEEFFD9B /* google */ = {
+			isa = PBXGroup;
+			children = (
+				CD8C309AB4A54E0751E19493C50A8313 /* api */,
+				BEC78F76AE7A7530278DEDC24E502B1A /* logging */,
+				CDD8E35465C61AF645760C17E35F7C37 /* longrunning */,
+				21E80FFC9BA37D02929467FF0F68A745 /* protobuf */,
+				9E0979D5DBBD0F26C60FDEA8D74A9195 /* rpc */,
+				177F1A1139750492B9D25F2086744353 /* type */,
+			);
+			name = google;
+			path = VisionRPCLib/Classes/RPC/google;
+			sourceTree = "<group>";
+		};
+		499BA97A70B5623E295F026387FE0999 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				4B2099A5A352317DA78F6A8A8D18340F /* Discover.pbobjc.h */,
+				4AB7AC18458AA0735DB889593D8DC3E9 /* Discover.pbobjc.m */,
+				014160E427AF6D79A12FD6C315B66A59 /* Vision.pbobjc.h */,
+				244599127E397C5400BDC4CDA02A292D /* Vision.pbobjc.m */,
+				ED5516408F7DA8245CEA7AE85C8D78F3 /* VisionInventoryItems.pbobjc.h */,
+				2796976FDA5AE4547BDAD16A90B18AF0 /* VisionInventoryItems.pbobjc.m */,
+				95FFEF9B70F22B443D46D1BC95CD5DF7 /* contract */,
+				E3A13E24AAE6AE4792D010AE535606C0 /* vision */,
+			);
+			name = core;
+			path = VisionRPCLib/Classes/RPC/core;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB6455F7FD758FA4E0E2E94553E0894 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95DE13BE5492F28D86132FC46DD8C3D2 /* Pods-VisionRPCLib_Example */,
+				FBA5CF8F5512004B0A78CFD6C80094FF /* Pods-VisionRPCLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		893042696DC89E08C4B10AED3E8F7E6F /* type */ = {
+			isa = PBXGroup;
+			children = (
+				1F9577082D7B6DD7DC32A6B06C6426F0 /* HTTPRequest.pbobjc.h */,
+				94D9BE261F639398A766B63D6309EC95 /* HTTPRequest.pbobjc.m */,
+				0768A36DA460F63AA7AF4D6FFB1784A5 /* LogSeverity.pbobjc.h */,
+				5C9A0EE27C01F61952202D6F33F923F0 /* LogSeverity.pbobjc.m */,
+			);
+			name = type;
+			path = type;
+			sourceTree = "<group>";
+		};
+		9594DD5676B16A98D286ECB4EF69150B /* VisionRPCLib */ = {
+			isa = PBXGroup;
+			children = (
+				CB94AF6D51B63D9E3F85232FED354D8E /* api */,
+				499BA97A70B5623E295F026387FE0999 /* core */,
+				3C3575C6A7708F6A93FEBE4FCEEFFD9B /* google */,
+				C25AFB582B9ED8646159B4D54097DE60 /* Pod */,
+				C4AD55E4109ADC9991288B865A391888 /* Support Files */,
+			);
+			name = VisionRPCLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		95DE13BE5492F28D86132FC46DD8C3D2 /* Pods-VisionRPCLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9B6C43DE2BDAB03A8F274CCAC196C2AD /* Pods-VisionRPCLib_Example.modulemap */,
+				9BE5762AF31C4E220A21F46A80C31D7F /* Pods-VisionRPCLib_Example-acknowledgements.markdown */,
+				404056A71A17A92B7AFE21FF948A184D /* Pods-VisionRPCLib_Example-acknowledgements.plist */,
+				035A8C6BBBFEE6E1F05F0A742E456419 /* Pods-VisionRPCLib_Example-dummy.m */,
+				F4C846E927E076A8679B758FB66B4273 /* Pods-VisionRPCLib_Example-frameworks.sh */,
+				6B64B1DE8F13E4DA82774D337D5800FC /* Pods-VisionRPCLib_Example-Info.plist */,
+				5570A04E53604B4BFCA54C7B28709026 /* Pods-VisionRPCLib_Example-umbrella.h */,
+				5149E874AD55B2B7E5E9979E48D5A838 /* Pods-VisionRPCLib_Example.debug.xcconfig */,
+				71110D72A7495A18C24D8F6E303AEAC2 /* Pods-VisionRPCLib_Example.release.xcconfig */,
+			);
+			name = "Pods-VisionRPCLib_Example";
+			path = "Target Support Files/Pods-VisionRPCLib_Example";
+			sourceTree = "<group>";
+		};
+		95FFEF9B70F22B443D46D1BC95CD5DF7 /* contract */ = {
+			isa = PBXGroup;
+			children = (
+				338A4AD56B6E07503399C7688BD24A3D /* AccountContract.pbobjc.h */,
+				5600C896F67854A8192B1734F8921C7E /* AccountContract.pbobjc.m */,
+				EBEF90FFF2DE5448C1D5B87A1B39373E /* AssetIssueContract.pbobjc.h */,
+				89BC7B2128A2351CD8CF3EDF114139E5 /* AssetIssueContract.pbobjc.m */,
+				E79F19FCB00D2619EA0AD28807651B23 /* BalanceContract.pbobjc.h */,
+				952602C865460D9C02B363E288511A6E /* BalanceContract.pbobjc.m */,
+				2C08CE08407E0B8DE149FB56A5C386C1 /* Common.pbobjc.h */,
+				635E4FBFB4ACAF3AD0E48FA94A68AFF6 /* Common.pbobjc.m */,
+				B7C672CB6448C056942F55433AD6BEF8 /* ExchangeContract.pbobjc.h */,
+				051580834BB1838B105420145256113D /* ExchangeContract.pbobjc.m */,
+				3AB3001A3530E37806E30B70E32380AC /* MarketContract.pbobjc.h */,
+				04EB96A25B38D583984170C06B69E4E6 /* MarketContract.pbobjc.m */,
+				149D92737361C31B88AB2C093CDA99B9 /* ProposalContract.pbobjc.h */,
+				12A74118DAC104E3C028FBDEB0C59126 /* ProposalContract.pbobjc.m */,
+				EE6921E456285945870AE228E18B383A /* ShieldContract.pbobjc.h */,
+				BC26892890B3B02716041CB1F42720F7 /* ShieldContract.pbobjc.m */,
+				92C946971FFD2233031B2849DFDE01EC /* SmartContract.pbobjc.h */,
+				099D7EA36A50B0543B6D8B188331497E /* SmartContract.pbobjc.m */,
+				698BC9FA6428E113392A2B6281D9CE32 /* StorageContract.pbobjc.h */,
+				C6805EBCDC2D08CE56ABD5A3408C4869 /* StorageContract.pbobjc.m */,
+				5B6C8AE9A9F8140352C49E740E38D16D /* VoteAssetContract.pbobjc.h */,
+				2CD44FE05D06AFAC89145D12585EB1C8 /* VoteAssetContract.pbobjc.m */,
+				410746B769673A36439EE1585C7DE1D6 /* WitnessContract.pbobjc.h */,
+				05948278637E5FB54D1C94FE50F5B210 /* WitnessContract.pbobjc.m */,
+			);
+			name = contract;
+			path = contract;
+			sourceTree = "<group>";
+		};
+		9E0979D5DBBD0F26C60FDEA8D74A9195 /* rpc */ = {
+			isa = PBXGroup;
+			children = (
+				5C3FAD8979FBEFA363336BD57F4723F5 /* Code.pbobjc.h */,
+				F9B2B38B9C8716D1945EA608AEAF839D /* Code.pbobjc.m */,
+				0CAC294493B115FFAD4CEA698AF753AD /* ErrorDetails.pbobjc.h */,
+				43F409AF5457CB0010CF064A83523C15 /* ErrorDetails.pbobjc.m */,
+				C9407F1B48C710AF56D3C8FD85B5DFA6 /* Status.pbobjc.h */,
+				7257436B28D2ABB30325604375E0BF5C /* Status.pbobjc.m */,
+			);
+			name = rpc;
+			path = rpc;
+			sourceTree = "<group>";
+		};
+		A07D1AEA39BF6811EBEADC420DDE4FA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E545CA10BA8575F14784099D720AF02 /* Pods-VisionRPCLib_Example */,
+				1F0DEFD524ACAA13B8E2CE760FDF4E24 /* Pods-VisionRPCLib_Tests */,
+				6261E09CF8F86FAB21C6A71F0A11F432 /* VisionRPCLib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6CC4327301498A1B705C2FDD692A0A1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9594DD5676B16A98D286ECB4EF69150B /* VisionRPCLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BEC78F76AE7A7530278DEDC24E502B1A /* logging */ = {
+			isa = PBXGroup;
+			children = (
+				893042696DC89E08C4B10AED3E8F7E6F /* type */,
+			);
+			name = logging;
+			path = logging;
+			sourceTree = "<group>";
+		};
+		C25AFB582B9ED8646159B4D54097DE60 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D630C1E2B78D43642803EDBD9235515C /* LICENSE */,
+				097DE861941598E782CE780C1CE78F11 /* README.md */,
+				8394064D52E2F732B4CD918556E82607 /* VisionRPCLib.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C4AD55E4109ADC9991288B865A391888 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84187A5CDCFDA367F2717116332F9B60 /* VisionRPCLib.modulemap */,
+				F1B161E9D0E53C1F96DD4F69B18A9760 /* VisionRPCLib-dummy.m */,
+				60486B86090F700DED6C34C185D53C2F /* VisionRPCLib-Info.plist */,
+				19B02598EB29D5DBB5461EB144195257 /* VisionRPCLib-prefix.pch */,
+				519DF18B02736FD3A688E5E157B40FF5 /* VisionRPCLib-umbrella.h */,
+				6596218381BECCBB7B6A75A5819B2665 /* VisionRPCLib.debug.xcconfig */,
+				5786EDCDD9CD03F5261FB4BC0B22DCD5 /* VisionRPCLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VisionRPCLib";
+			sourceTree = "<group>";
+		};
+		CB94AF6D51B63D9E3F85232FED354D8E /* api */ = {
+			isa = PBXGroup;
+			children = (
+				B775C5BF7997B141F41CAD786E361FDF /* Api.pbobjc.h */,
+				D60881C20F452D230071061E99152540 /* Api.pbobjc.m */,
+				CA32247D1B96E2AB24F4AC961FF09F25 /* Api.pbrpc.h */,
+				5D9C4E80C230C2BB8AB87BF205B208DD /* Api.pbrpc.m */,
+				4C5CB7B2507413B451E133DF9CC5E264 /* Zksnark.pbobjc.h */,
+				6FDC3D43FD0BE3201394867DDA30248F /* Zksnark.pbobjc.m */,
+				1D3948A9EE334215AE03F57FA0A5378E /* Zksnark.pbrpc.h */,
+				F8A3B8A390311C3CC3E0561D7A0B0A24 /* Zksnark.pbrpc.m */,
+			);
+			name = api;
+			path = VisionRPCLib/Classes/RPC/api;
+			sourceTree = "<group>";
+		};
+		CD8C309AB4A54E0751E19493C50A8313 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				88F344E74037BE47B6C349DB73C45EAE /* Annotations.pbobjc.h */,
+				59E3651A5D01419C47DC500C3FA2DCCB /* Annotations.pbobjc.m */,
+				EC66A1EA4BD3465BF000A0EFAB76B081 /* Auth.pbobjc.h */,
+				40E50D6B5594D6BDFBC2FB58E31B4B68 /* Auth.pbobjc.m */,
+				78AAD2482A685541103CC1F9E343EB73 /* Backend.pbobjc.h */,
+				7EEC31B70DDAFB620592F7DAFE5EB0C2 /* Backend.pbobjc.m */,
+				28816DA2FFCB87BA0A6EECC8C9F5AB99 /* Billing.pbobjc.h */,
+				E4105CDD7E375A34C0526129910ED971 /* Billing.pbobjc.m */,
+				024F6C71EDFFED2C3D7C101BB0C9CD51 /* Consumer.pbobjc.h */,
+				B87F761E62D5DC8DC46670EED702736B /* Consumer.pbobjc.m */,
+				69219B73277BEC834576CED2CB0D5EAC /* Context.pbobjc.h */,
+				762CF050B5F062BB0737A6B23C7EF62F /* Context.pbobjc.m */,
+				30DB0D9FD95E29D7AEE0389D1B3C8C3D /* Control.pbobjc.h */,
+				6311FEA4482237BDDC1E09EF0975C631 /* Control.pbobjc.m */,
+				3409C2FC263D8D9C896F4A913A199506 /* Distribution.pbobjc.h */,
+				C97AA00F30CDAE36A53322BD7E83F437 /* Distribution.pbobjc.m */,
+				758F8600AB1F48581E63CCF7327C212C /* Documentation.pbobjc.h */,
+				73862B2B8F605B15F243DFCAF8E49097 /* Documentation.pbobjc.m */,
+				78195B63FB5048958019478484A33B7C /* HTTP.pbobjc.h */,
+				4DA3EE25B1015F9306CEA403B4CBEEFF /* HTTP.pbobjc.m */,
+				EC9A098AF38943A47CFA4D0589D34F48 /* Label.pbobjc.h */,
+				8A917FCDCDFEAD0DA419DE0074387B35 /* Label.pbobjc.m */,
+				F321148D4BE985F2245FFE18CFECBE32 /* Log.pbobjc.h */,
+				F1EA1B78FA801604FEBCB86655907DE4 /* Log.pbobjc.m */,
+				27C4213DDFC7EBC7F39B5958C190A4F6 /* Logging.pbobjc.h */,
+				99319D69041CFD72226E425077F2380A /* Logging.pbobjc.m */,
+				2B39679394190F94FEFB9CA38F083DBE /* Metric.pbobjc.h */,
+				60732093E8BD81C9C0A0CC6902B35975 /* Metric.pbobjc.m */,
+				B84DF67A65C3D63983E904F65D4980FF /* MonitoredResource.pbobjc.h */,
+				0E3AEC63F67BE81CC9A65244306D9F1F /* MonitoredResource.pbobjc.m */,
+				856EB4C5967124D71F2DBBB151E3052A /* Monitoring.pbobjc.h */,
+				51D4DB1EFF421D9933F2E4B0B15AABC8 /* Monitoring.pbobjc.m */,
+				D3CB990FDDEDDE9E7EF6F3049DB44B88 /* Service.pbobjc.h */,
+				FBF484A2954AE1AFC2B93384C25F06F8 /* Service.pbobjc.m */,
+				ED6D9AD8EA8646144CC07E0881E11693 /* SystemParameter.pbobjc.h */,
+				6DFED39DD930FD3FAD818C75E485851A /* SystemParameter.pbobjc.m */,
+				1493AB2844D3684D2403268C64131D2D /* Usage.pbobjc.h */,
+				246EE36337CF735F147553D7B2167FC7 /* Usage.pbobjc.m */,
+			);
+			name = api;
+			path = api;
+			sourceTree = "<group>";
+		};
+		CDD8E35465C61AF645760C17E35F7C37 /* longrunning */ = {
+			isa = PBXGroup;
+			children = (
+				FB9130B68866465D1604982D82482266 /* Operations.pbobjc.h */,
+				5B994F266DE66AF3D7C61FDA24837D0E /* Operations.pbobjc.m */,
+			);
+			name = longrunning;
+			path = longrunning;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A6CC4327301498A1B705C2FDD692A0A1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A07D1AEA39BF6811EBEADC420DDE4FA4 /* Products */,
+				7DB6455F7FD758FA4E0E2E94553E0894 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3A13E24AAE6AE4792D010AE535606C0 /* vision */ = {
+			isa = PBXGroup;
+			children = (
+				FD3180CFAD3D51E8090925A8B1108F12 /* Account.pbobjc.h */,
+				C7B76D1142718BE94FC679543137286B /* Account.pbobjc.m */,
+				D30338FEC7648667F618C293006FB8EE /* Block.pbobjc.h */,
+				E5171952990D4B34D9BDEC71082076E8 /* Block.pbobjc.m */,
+				2DA99EFA04D48AE42905CB8FE1732E95 /* DelegatedResource.pbobjc.h */,
+				C293095BD125EAFD5162C340DA962CA9 /* DelegatedResource.pbobjc.m */,
+				4FF034354AD136C85A4099CB1B1DD508 /* P2P.pbobjc.h */,
+				DC8AEA948B2AB25EFD141A67432B94B1 /* P2P.pbobjc.m */,
+				FDA08A8FB9AB51989CCA4CEA21FCDED3 /* Proposal.pbobjc.h */,
+				FFDE253093A3D346C45E383CBC946364 /* Proposal.pbobjc.m */,
+				790B8D9BED772979C03E2635007AAF68 /* Transaction.pbobjc.h */,
+				881EB5493BC36D21BE1A1D5E7846C40B /* Transaction.pbobjc.m */,
+				7A18C08F2F3E4C0840C09344B0A4CE20 /* Vote.pbobjc.h */,
+				8B65F43F8B54C74A657AD3B416533EE9 /* Vote.pbobjc.m */,
+				7B7D00A3FAB155FB68A9EC6AD11B21CF /* Witness.pbobjc.h */,
+				CD176D65C09BF9804EBD2AFFA7EC3C0D /* Witness.pbobjc.m */,
+			);
+			name = vision;
+			path = vision;
+			sourceTree = "<group>";
+		};
+		FBA5CF8F5512004B0A78CFD6C80094FF /* Pods-VisionRPCLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F0C15B281C0EE3E487B0A83EE7A45EF1 /* Pods-VisionRPCLib_Tests.modulemap */,
+				E59AC3A95FA5CBF54D620B5E4A6A077C /* Pods-VisionRPCLib_Tests-acknowledgements.markdown */,
+				5293FDBDCA60952BC660C8C52F5A6E37 /* Pods-VisionRPCLib_Tests-acknowledgements.plist */,
+				B0AB922C9B662EC0D028FD8AF0764231 /* Pods-VisionRPCLib_Tests-dummy.m */,
+				2C67AC6B313C1825739E62A0089B43BD /* Pods-VisionRPCLib_Tests-Info.plist */,
+				E2574E0C3DFD95437049A53C3DBC8C79 /* Pods-VisionRPCLib_Tests-umbrella.h */,
+				FB3BD91E0A8124D43562C8B7625CF2B7 /* Pods-VisionRPCLib_Tests.debug.xcconfig */,
+				6EA1D4B5C1663779E7A13076DECA8E0F /* Pods-VisionRPCLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-VisionRPCLib_Tests";
+			path = "Target Support Files/Pods-VisionRPCLib_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0722F6F0B62AF329D386B8FC51E6CA2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69151AAE56DDF4B4A1BD0E1FF63A3C89 /* Account.pbobjc.h in Headers */,
+				F82B93E090BACF4694A0BAB93BB373E2 /* AccountContract.pbobjc.h in Headers */,
+				BE7E0D40405755C3C4E3C3E34CFA8753 /* Annotations.pbobjc.h in Headers */,
+				CB6942BACABBC9C3C6384BBAE4756B63 /* Api.pbobjc.h in Headers */,
+				7DEA8A8151C891305C71ED6FC3389341 /* Api.pbrpc.h in Headers */,
+				0CD1FB57CB3EDDC634E8002DBE8A432E /* AssetIssueContract.pbobjc.h in Headers */,
+				ADD2348F107EFADDD09E1B2DC4DAF393 /* Auth.pbobjc.h in Headers */,
+				2BDBA291A898556CEC2950AD6D6A314F /* Backend.pbobjc.h in Headers */,
+				322C8D64B93D7CC5E24634649A376DFA /* BalanceContract.pbobjc.h in Headers */,
+				A97CB2E39E9D71E2BBE283E92ADCCAB6 /* Billing.pbobjc.h in Headers */,
+				C4C04E5B0FCBF233A2F1229A24333B77 /* Block.pbobjc.h in Headers */,
+				B878E0BE8FD9077C110BC032027D7B9A /* Code.pbobjc.h in Headers */,
+				BA8A7FC0B182649A1F208DE65E5BE8F4 /* Color.pbobjc.h in Headers */,
+				79A19ECB6018B091A392D4B3B9577614 /* Common.pbobjc.h in Headers */,
+				3CF48E4F2C7125C055416B4E05AF52D3 /* Consumer.pbobjc.h in Headers */,
+				9E507FDAEF6122BED005D71AA3AE16BA /* Context.pbobjc.h in Headers */,
+				59CD56FB5D04D0F8DF8B76AC1E660B4D /* Control.pbobjc.h in Headers */,
+				FC9D8FF5051C4FE2647F6EF7E67B04EA /* Date.pbobjc.h in Headers */,
+				4B38AD900450500C546EB752B831E403 /* Dayofweek.pbobjc.h in Headers */,
+				CCEFD4C6647721380CE608B35B72FB70 /* DelegatedResource.pbobjc.h in Headers */,
+				86343BE5E4480B1B4A1F672E0C6E969A /* Descriptor.pbobjc.h in Headers */,
+				9B1AA3D00CE4720A61CC078072076242 /* Discover.pbobjc.h in Headers */,
+				74092352E085B9E324693A1346E8C1DD /* Distribution.pbobjc.h in Headers */,
+				83031695C7D12804033E6BACF49CB8F7 /* Documentation.pbobjc.h in Headers */,
+				731548F37A45066E1913C579BA8574E8 /* ErrorDetails.pbobjc.h in Headers */,
+				7E50BC89E3C3B119483EE32A2CBAD480 /* ExchangeContract.pbobjc.h in Headers */,
+				CD63CB81F0FED2F5839712D1E055712D /* HTTP.pbobjc.h in Headers */,
+				46EC90ED7A4FAAC3F3501BA6A9B9E732 /* HTTPRequest.pbobjc.h in Headers */,
+				4ACC835F286DB359FEC1AA492A632D7E /* Label.pbobjc.h in Headers */,
+				42D531C19B918265D8F56DB66728DFFB /* Latlng.pbobjc.h in Headers */,
+				C86AA074C0FCD5D0D7A22E6A1AD85955 /* Log.pbobjc.h in Headers */,
+				66D18130A8332D4FE71A906B8EC0B5A8 /* Logging.pbobjc.h in Headers */,
+				43F5E848044F8D7D1EE862441607611D /* LogSeverity.pbobjc.h in Headers */,
+				3C1C247A8514D809541D080DF6AB582C /* MarketContract.pbobjc.h in Headers */,
+				5F454EC689997A43ADAFAFFDC080F22F /* Metric.pbobjc.h in Headers */,
+				08866F89F19CDDE9D357B14E9A3F4016 /* Money.pbobjc.h in Headers */,
+				14748EBE6072A979C344124AF1955D1F /* MonitoredResource.pbobjc.h in Headers */,
+				E526EAB08092AAA5DE8F1CA7A6C37E95 /* Monitoring.pbobjc.h in Headers */,
+				4A33A7896816DD84393BFFBF07F19EA3 /* Operations.pbobjc.h in Headers */,
+				279E5532A6ECF5132BCDBF218720F76C /* P2P.pbobjc.h in Headers */,
+				037DBDF9549A6E39E257FC4257FB27C7 /* Proposal.pbobjc.h in Headers */,
+				346BE343517A693E1010B555B04B483E /* ProposalContract.pbobjc.h in Headers */,
+				20BFF7BDF56C51CECAAEA9376D2103B0 /* Service.pbobjc.h in Headers */,
+				B470877FEC6DBFF8204605C6987B3054 /* ShieldContract.pbobjc.h in Headers */,
+				FFF6877CB2657267B82D2FA9C4378CBB /* SmartContract.pbobjc.h in Headers */,
+				2633B4FB691A63E1DE913AE573102020 /* Status.pbobjc.h in Headers */,
+				3B98A8EC48EB7AFC3AA99CFF18A7A7DC /* StorageContract.pbobjc.h in Headers */,
+				975839B3A2B23E3C482CEB08BEA50657 /* SystemParameter.pbobjc.h in Headers */,
+				505EE4B9E5BD2615DD4E604D6C1D64F8 /* Timeofday.pbobjc.h in Headers */,
+				1379C9D24B09957E105435A028D01B5D /* Transaction.pbobjc.h in Headers */,
+				08ED19443ACA4EBFA24692DEF4E06E99 /* Usage.pbobjc.h in Headers */,
+				35B5710F91907279BAA86998D63B5AF6 /* Vision.pbobjc.h in Headers */,
+				D9E04D308B092D759D1ED35F5EB3E501 /* VisionInventoryItems.pbobjc.h in Headers */,
+				4966B172DF29AEDF660771AA214DC2EA /* VisionRPCLib-umbrella.h in Headers */,
+				2DF55CBB32F03E151CF5F4054EEA59E4 /* Vote.pbobjc.h in Headers */,
+				A98702CA598B59921A633E25F5DA2BB0 /* VoteAssetContract.pbobjc.h in Headers */,
+				7D17311F4DC390CDB57C592E9E27D123 /* Witness.pbobjc.h in Headers */,
+				8E6DAF28F99C516FC03AB06F98174E5F /* WitnessContract.pbobjc.h in Headers */,
+				54CEA0ED8FE10DCCE5338F5AC3F3F144 /* Zksnark.pbobjc.h in Headers */,
+				A96D50F4FF43182D652A426CD2478A73 /* Zksnark.pbrpc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079AE5058AA05B07CA98ED38255EA34F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4FAAB262DCB8F8B2DBEC264DBBC5CC /* Pods-VisionRPCLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DEDF7BC3A18B9D4DA21E8FE226BD3CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE851AAECFDC8B159541409D8C80958C /* Pods-VisionRPCLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E9B0C633D314C5AF4438B34A3FEBB97 /* Pods-VisionRPCLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262EA54170ED733FBF04EEDEDF018894 /* Build configuration list for PBXNativeTarget "Pods-VisionRPCLib_Example" */;
+			buildPhases = (
+				079AE5058AA05B07CA98ED38255EA34F /* Headers */,
+				39FFA6E0E0CAE4FBEF49CA87FF0B8A11 /* Sources */,
+				E11C79A39DA0BB980DEF778B2F3BE00E /* Frameworks */,
+				5C5470882FF67E7AA3E767D0539CCEF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AF22D72B4DB6FD20044B3EBD0EA6284 /* PBXTargetDependency */,
+			);
+			name = "Pods-VisionRPCLib_Example";
+			productName = Pods_VisionRPCLib_Example;
+			productReference = 7E545CA10BA8575F14784099D720AF02 /* Pods-VisionRPCLib_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		A86D5A92A6F051F565DB55B73C543D37 /* Pods-VisionRPCLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3343F70FF648F4C04D7C888325F590F7 /* Build configuration list for PBXNativeTarget "Pods-VisionRPCLib_Tests" */;
+			buildPhases = (
+				0DEDF7BC3A18B9D4DA21E8FE226BD3CA /* Headers */,
+				697E2B6A67AE3345824718DDFE3EBFFC /* Sources */,
+				651ABE42D8AB7EAD55F8B340444C2565 /* Frameworks */,
+				4B49296B1A11ED31FB994C4BF3CD5F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7D9F67697BF25515D2E8507D75A0C07 /* PBXTargetDependency */,
+			);
+			name = "Pods-VisionRPCLib_Tests";
+			productName = Pods_VisionRPCLib_Tests;
+			productReference = 1F0DEFD524ACAA13B8E2CE760FDF4E24 /* Pods-VisionRPCLib_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E28C33D6D04BCCD33B4BA6D84CAF7B6E /* VisionRPCLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16BF978A237E48B2FC01A19318C51D95 /* Build configuration list for PBXNativeTarget "VisionRPCLib" */;
+			buildPhases = (
+				0722F6F0B62AF329D386B8FC51E6CA2D /* Headers */,
+				E1B0A161D2103338155C763681635F79 /* Sources */,
+				DFBE290CBFD9B654390FD4D2F472F1B4 /* Frameworks */,
+				1025DC285F97026BF9F7B42E49195413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionRPCLib;
+			productName = VisionRPCLib;
+			productReference = 6261E09CF8F86FAB21C6A71F0A11F432 /* VisionRPCLib */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A07D1AEA39BF6811EBEADC420DDE4FA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E9B0C633D314C5AF4438B34A3FEBB97 /* Pods-VisionRPCLib_Example */,
+				A86D5A92A6F051F565DB55B73C543D37 /* Pods-VisionRPCLib_Tests */,
+				E28C33D6D04BCCD33B4BA6D84CAF7B6E /* VisionRPCLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1025DC285F97026BF9F7B42E49195413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B49296B1A11ED31FB994C4BF3CD5F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5470882FF67E7AA3E767D0539CCEF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39FFA6E0E0CAE4FBEF49CA87FF0B8A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95E187830488605016EE4C73A5E25B8 /* Pods-VisionRPCLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		697E2B6A67AE3345824718DDFE3EBFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FB02E5556BA9E8A3CA465CF1661EB7 /* Pods-VisionRPCLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B0A161D2103338155C763681635F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9F507D42411F0AC9E793756611F880 /* Account.pbobjc.m in Sources */,
+				48A2629A9FF481D0A8BAA40FB21BADD0 /* AccountContract.pbobjc.m in Sources */,
+				568F8B384AEB59E3C747415B7AD40B04 /* Annotations.pbobjc.m in Sources */,
+				632FECEDCD2EA4AD251E0F6CA662233B /* Api.pbobjc.m in Sources */,
+				548031557762B3871256B665CE8D25BB /* Api.pbrpc.m in Sources */,
+				A991063371A63294194BB683D35698DD /* AssetIssueContract.pbobjc.m in Sources */,
+				1FC96A7579FC4F364B296E5109193EAA /* Auth.pbobjc.m in Sources */,
+				75A0BF3946518FBEC6C8A7DDE82D2703 /* Backend.pbobjc.m in Sources */,
+				8C946B5DA739458FDACBE17C72A066F2 /* BalanceContract.pbobjc.m in Sources */,
+				90635DF7A038D99B97C3DD1875B80294 /* Billing.pbobjc.m in Sources */,
+				9A90B003DFE1CC87BF11E2DE84C2FF74 /* Block.pbobjc.m in Sources */,
+				9342AFA1C8342B1DAFF0C8E9A4C78169 /* Code.pbobjc.m in Sources */,
+				E347CBE644F5423451DCC92A4EFD4288 /* Color.pbobjc.m in Sources */,
+				B4498150E14C32D26A99689EC507BE98 /* Common.pbobjc.m in Sources */,
+				AEDF128CD4828B5F2F67EF2CA6541144 /* Consumer.pbobjc.m in Sources */,
+				772646FA73D11B927A1A99166CDF93DA /* Context.pbobjc.m in Sources */,
+				2FFF75AE269DCC97C1E48860F035F693 /* Control.pbobjc.m in Sources */,
+				7045C0058F0223180E48A6DC5588A39A /* Date.pbobjc.m in Sources */,
+				7423C4E48CF60CEC69CC60B5CA771D59 /* Dayofweek.pbobjc.m in Sources */,
+				B761A3C8335EE4931E08A27B368B7FE7 /* DelegatedResource.pbobjc.m in Sources */,
+				47F6A9241F7E0A31F3B3FDD0C0240EB8 /* Descriptor.pbobjc.m in Sources */,
+				4A68A058789FC519369AAC63F7E3B3B4 /* Discover.pbobjc.m in Sources */,
+				043A89E0B02E794EC597F161C5109461 /* Distribution.pbobjc.m in Sources */,
+				83EEBD6AB486C37DC4F7A8B9C17AD879 /* Documentation.pbobjc.m in Sources */,
+				74800A090D63FE4B693E646FC5D0B1E6 /* ErrorDetails.pbobjc.m in Sources */,
+				D3D4EA6C6498B6C5328A3FDBAA4197CB /* ExchangeContract.pbobjc.m in Sources */,
+				FC2172D1493E63398AAA8D9AF22D37A5 /* HTTP.pbobjc.m in Sources */,
+				FFA919BD54FC17799376A0F74C7FAE56 /* HTTPRequest.pbobjc.m in Sources */,
+				50F2174654CABE3AB0B8679B1C90C23D /* Label.pbobjc.m in Sources */,
+				E1009EC782E431763E185FDEBC2C9FBA /* Latlng.pbobjc.m in Sources */,
+				843000241D82BF8B4AB07DD14102FCEE /* Log.pbobjc.m in Sources */,
+				935EF9B31505215350B4341A3442A3A6 /* Logging.pbobjc.m in Sources */,
+				1FEB32A402065AD759A5FEC2AFB075A1 /* LogSeverity.pbobjc.m in Sources */,
+				1F3CBAD8DA00452E791A39548D38C74D /* MarketContract.pbobjc.m in Sources */,
+				8E729C9A705F35D42F2C832D2F61E992 /* Metric.pbobjc.m in Sources */,
+				5904B9F5C6C8A89E041A0046D6467FD6 /* Money.pbobjc.m in Sources */,
+				EBC6AA7ACA1B64B9CA4CB81EEF8AD77F /* MonitoredResource.pbobjc.m in Sources */,
+				11443BC17BB34F406E630E6F6A79D52A /* Monitoring.pbobjc.m in Sources */,
+				E01DF1F539707766632ED1A458BF1F16 /* Operations.pbobjc.m in Sources */,
+				93B8355D320B04C3F440531964FB0A31 /* P2P.pbobjc.m in Sources */,
+				6897B7B0896CE38F58174ADC418C4C26 /* Proposal.pbobjc.m in Sources */,
+				258341C2FCDCECB78D7AD145088A277E /* ProposalContract.pbobjc.m in Sources */,
+				423C26201A24E1524DB172CAB00638A0 /* Service.pbobjc.m in Sources */,
+				EE34AC063B031D9E71F891542BB82A71 /* ShieldContract.pbobjc.m in Sources */,
+				3A51F89837CB41872A2DFC5918AC018D /* SmartContract.pbobjc.m in Sources */,
+				72DAC0E908F4E8BB12A35EC641DEED38 /* Status.pbobjc.m in Sources */,
+				9803BD272AC3A5A54A5B59FD4D99AD65 /* StorageContract.pbobjc.m in Sources */,
+				62627D39598E224ACC63490EFCFE1391 /* SystemParameter.pbobjc.m in Sources */,
+				88BEDEE7D600AC8EA0A8082BEADD40F9 /* Timeofday.pbobjc.m in Sources */,
+				52190383E34F26A970BC3B343AEE8244 /* Transaction.pbobjc.m in Sources */,
+				F78124B151A3DA30F9295E56FC735C38 /* Usage.pbobjc.m in Sources */,
+				726451841F994185FC881C3DFD282858 /* Vision.pbobjc.m in Sources */,
+				0A6DE4478AA499A42474E9CB333D0C26 /* VisionInventoryItems.pbobjc.m in Sources */,
+				1F911A644FA280C89137AA823FFDE83F /* VisionRPCLib-dummy.m in Sources */,
+				706F2097E791F0E81D27A14385841B5F /* Vote.pbobjc.m in Sources */,
+				73DE92A43E23D169D428CD1EC0AC3DF3 /* VoteAssetContract.pbobjc.m in Sources */,
+				18A19B1A75EEB715570DBF9A298EC545 /* Witness.pbobjc.m in Sources */,
+				0AE07214B3C8E005B873120EDA0CA225 /* WitnessContract.pbobjc.m in Sources */,
+				5CCF8A4E98CC9D334AC712121CED9ED0 /* Zksnark.pbobjc.m in Sources */,
+				428E2AA07CC4E05CD675428313D47075 /* Zksnark.pbrpc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AF22D72B4DB6FD20044B3EBD0EA6284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VisionRPCLib;
+			target = E28C33D6D04BCCD33B4BA6D84CAF7B6E /* VisionRPCLib */;
+			targetProxy = 33259379F607C0C183CCD9A585E74BDE /* PBXContainerItemProxy */;
+		};
+		E7D9F67697BF25515D2E8507D75A0C07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VisionRPCLib_Example";
+			target = 4E9B0C633D314C5AF4438B34A3FEBB97 /* Pods-VisionRPCLib_Example */;
+			targetProxy = AED961AD6D794AF744701E25FD6B6EE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18999529C488BC6AF0FA567D29985F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3BD91E0A8124D43562C8B7625CF2B7 /* Pods-VisionRPCLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VisionRPCLib_Tests/Pods-VisionRPCLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VisionRPCLib_Tests/Pods-VisionRPCLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C98A2A8C84AFBE1094FBC6A30EB8B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6596218381BECCBB7B6A75A5819B2665 /* VisionRPCLib.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VisionRPCLib/VisionRPCLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VisionRPCLib/VisionRPCLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VisionRPCLib/VisionRPCLib.modulemap";
+				PRODUCT_MODULE_NAME = VisionRPCLib;
+				PRODUCT_NAME = VisionRPCLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		72B09E5AE788AEC68E35D98FE453AE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5149E874AD55B2B7E5E9979E48D5A838 /* Pods-VisionRPCLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VisionRPCLib_Example/Pods-VisionRPCLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VisionRPCLib_Example/Pods-VisionRPCLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADB96258D54D6D1F99E81D65AC0BF32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71110D72A7495A18C24D8F6E303AEAC2 /* Pods-VisionRPCLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VisionRPCLib_Example/Pods-VisionRPCLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VisionRPCLib_Example/Pods-VisionRPCLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9F8FB1A5CBCDBFDB73DC2640C68AD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5786EDCDD9CD03F5261FB4BC0B22DCD5 /* VisionRPCLib.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VisionRPCLib/VisionRPCLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VisionRPCLib/VisionRPCLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VisionRPCLib/VisionRPCLib.modulemap";
+				PRODUCT_MODULE_NAME = VisionRPCLib;
+				PRODUCT_NAME = VisionRPCLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE7DB31D6CA85F4B1496F5775C485F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA1D4B5C1663779E7A13076DECA8E0F /* Pods-VisionRPCLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VisionRPCLib_Tests/Pods-VisionRPCLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VisionRPCLib_Tests/Pods-VisionRPCLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16BF978A237E48B2FC01A19318C51D95 /* Build configuration list for PBXNativeTarget "VisionRPCLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C98A2A8C84AFBE1094FBC6A30EB8B34 /* Debug */,
+				B9F8FB1A5CBCDBFDB73DC2640C68AD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		262EA54170ED733FBF04EEDEDF018894 /* Build configuration list for PBXNativeTarget "Pods-VisionRPCLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B09E5AE788AEC68E35D98FE453AE43 /* Debug */,
+				ADB96258D54D6D1F99E81D65AC0BF32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3343F70FF648F4C04D7C888325F590F7 /* Build configuration list for PBXNativeTarget "Pods-VisionRPCLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18999529C488BC6AF0FA567D29985F8F /* Debug */,
+				BE7DB31D6CA85F4B1496F5775C485F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

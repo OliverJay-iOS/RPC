@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'VisionRPCLib_Example' do
+  pod 'VisionRPCLib', :path => '../'
+
+  target 'VisionRPCLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

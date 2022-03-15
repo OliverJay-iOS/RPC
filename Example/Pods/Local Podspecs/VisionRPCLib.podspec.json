@@ -1,0 +1,22 @@
+{
+  "name": "VisionRPCLib",
+  "version": "0.1.0",
+  "summary": "A short description of VisionRPCLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/IOS-OliverJay-at-289631370416/VisionRPCLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "IOS-OliverJay-at-289631370416": "OliverJay"
+  },
+  "source": {
+    "git": "https://github.com/IOS-OliverJay-at-289631370416/VisionRPCLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "VisionRPCLib/Classes/**/*"
+}

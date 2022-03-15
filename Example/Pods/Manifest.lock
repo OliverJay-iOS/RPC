@@ -1,0 +1,16 @@
+PODS:
+  - VisionRPCLib (0.1.0)
+
+DEPENDENCIES:
+  - VisionRPCLib (from `../`)
+
+EXTERNAL SOURCES:
+  VisionRPCLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VisionRPCLib: 1c1d3239599bda57ddbc6f4a82a8569e8723cf25
+
+PODFILE CHECKSUM: 9b32332fdb19144d78e9a15b4f891f005aa055b7
+
+COCOAPODS: 1.11.2
