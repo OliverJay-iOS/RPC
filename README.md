@@ -22,7 +22,7 @@ pod 'VisionRPCLib'
 
 ## Author
 
-IOS-OliverJay-at-289631370416, OliverJay
+OliverJay
 
 ## License
 
